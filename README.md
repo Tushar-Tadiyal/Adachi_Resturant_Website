@@ -1,4 +1,4 @@
-markdown# 🍣 Adachi Restaurant Website
+🍣 Adachi Restaurant Website
 
 Welcome to the official repository for the **Adachi Restaurant Website**, featuring a beautifully designed menu and online space showcasing the pure essence of authentic dishes.
 
