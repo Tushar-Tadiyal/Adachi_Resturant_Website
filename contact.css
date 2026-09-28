@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Dune Rise;
+    src: url(./Dune_Rise.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:aliceblue;
+    font-family: Dune Rise;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+#navleft{
+    height: 100%;
+    width: 72%;
+    display: flex;
+    
+}
+#lleft{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lright{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 70px;
+
+}
+#navright{
+    height: 100%;
+    width: 28%;
+    border-bottom:0.5px solid aliceblue ;
+    display: flex;
+}
+.navboxes{
+    height: 100%;
+    width: 33.33%;
+    border-left: solid 0.5px aliceblue;
+}
+button{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: Dune Rise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+}
+button:hover{
+    background-color: aliceblue;
+    
+}
+button:hover a{
+    color: #000;
+}
+#body{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+}
+h4{
+    line-height:30px;
+}
+#box{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+#home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}

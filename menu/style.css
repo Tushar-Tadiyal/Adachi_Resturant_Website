@@ -1,0 +1,144 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900,100);
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  background-color: #000;
+  margin: 0;
+  color: wheat;
+  text-align: center;
+  height: 100%;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 100 !important;
+}
+h2 {
+  font-style: italic;
+  margin-top: 4em;
+  font-size: 2em;
+  font-weight: 300;
+}
+a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+}
+#flipbook {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+.page:not(:first-child) + div:before {
+  content: "Page " attr(title);
+  color: rgba(255, 255, 255, 0.75);
+  left: 20px;
+  top: 10px;
+  position: absolute;
+  text-shadow: 0 0 6px black;
+  
+}
+.page {
+  border: solid 3px white;
+  background: no-repeat center top;
+  background-size: cover;
+  width: 554px;
+  height: 554px;
+  overflow: hidden;
+  background-color: white;
+}
+.hard {
+  background: rgba(157, 39, 23, 1);
+}
+.hard:last-of-type() {
+  background: rgba(157, 39, 23, 1);
+}
+.no1 {
+  background-image: url(./menupics/menu_page-0001.jpg);
+}
+.no2 {
+  background-image: url(./menupics/menu_page-0002.jpg);
+}
+.no3 {
+  background-image: url(./menupics/menu_page-0003.jpg);
+}
+.no4 {
+  background-image: url(./menupics/menu_page-0004.jpg);
+}
+.no5 {
+  background-image: url(./menupics/menu_page-0005.jpg);
+}
+.no6 {
+  background-image: url(./menupics/menu_page-0006.jpg);
+}
+.no7 {
+  background-image: url(./menupics/menu_page-0007.jpg);
+}
+.no8 {
+  background-image: url(./menupics/menu_page-0008.jpg);
+}
+.no9 {
+  background-image: url(./menupics/menu_page-0009.jpg);
+}
+.no10 {
+  background-image: url(./menupics/menu_page-0010.jpg);
+}
+.no11 {
+  background-image: url(./menupics/menu_page-0011.jpg);
+}
+.no12 {
+  background-image: url(./menupics/menu_page-0012.jpg);
+}
+.no13 {
+  background-image: url(./menupics/menu_page-0013.jpg);
+}
+.no14 {
+  background-image: url(./menupics/menu_page-0014.jpg);
+}
+.no15 {
+  background-image: url(./menupics/menu_page-0015.jpg);
+}
+.no16 {
+  background-image: url(./menupics/menu_page-0016.jpg);
+}
+.no17 {
+  background-image: url(./menupics/menu_page-0017.jpg);
+}
+.no18 {
+  background-image: url(./menupics/menu_page-0018.jpg);
+}
+.no19 {
+  background-image: url(./menupics/menu_page-0019.jpg);
+}
+.no20 {
+  background-image: url(./menupics/menu_page-0020.jpg);
+}
+.no21 {
+  background-image: url(./menupics/menu_page-0021.jpg);
+}
+.no22 {
+  background-image: url(./menupics/menu_page-0022.jpg);
+}
+.no23 {
+  background-image: url(./menupics/menu_page-0023.jpg);
+}
+.no24 {
+  background-image: url(./menupics/menu_page-0024.jpg);
+}
+.no25 {
+  background-image: url(./menupics/menu_page-0025.jpg);
+}
+
+
+
+
+.flag {
+  font-size: 90px;
+  position: relative;
+  top: 40%;
+  user-select: none;
+}

@@ -1,0 +1,225 @@
+@font-face {
+  font-family: Dune Rise;
+  src: url(./Dune_Rise.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:black;
+    font-family: Dune Rise;
+}
+  
+  body {
+  /*   background: #222; */
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  #box{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+#lleft{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#lright{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 70px;
+    align-items: center;
+    color: aliceblue;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+#nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+#navleft{
+    height: 100%;
+    width: 72%;
+    display: flex;
+}
+#navright{
+    height: 100%;
+    width: 28%;
+    border-bottom:0.5px solid aliceblue ;
+    display: flex;
+}
+.navboxes{
+    height: 100%;
+    width: 33.33%;
+    border-left: solid 0.5px aliceblue;
+}
+.button{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    font-family: Dune Rise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-small;
+    color: aliceblue;
+}
+.button:hover{
+    background-color: aliceblue;
+    
+}
+.button:hover a{
+    color: #000;
+}
+  
+  /* -------------
+      FORM STYLES 
+  ----------------*/
+  
+  
+  #tipForm {
+    border-radius: 15px;
+    box-shadow: 0 0 1px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 350px;
+    padding-bottom: 10px;
+    border-left: 0.2px solid aliceblue;
+    border-right: 0.2px solid aliceblue;
+    border-bottom: 0.2px solid aliceblue;
+  }
+  
+  h1 {
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-top: 0.2px solid aliceblue;
+    color: aliceblue;
+    border-bottom: 0.2px solid aliceblue;
+  }
+  
+  .inputs {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    color: aliceblue;
+  }
+  
+  label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  #result {
+    align-self: center;
+    background-color: #eee;
+    text-align: center;
+    width: 50%;
+  }
+  
+  button {
+    border: none;
+    border-radius: 5px;
+    background: #605e5b;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+  }
+  
+  button:hover {
+    background: #42413f;
+  }
+  
+  #split,
+  #bill {
+    width: 30%;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex-btn {
+    display: flex;
+    justify-content: space-around;
+  }
+  #nav{
+    height: 10%;
+    width: 100%;
+    
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  #nav #left{
+    height: 100%;
+    width: 30%;
+    border-bottom: 0.5px solid white;
+  }
+  #nav #right{
+    height: 100%;
+    width: 40%;
+    border-bottom: 0.5px solid white;
+}
